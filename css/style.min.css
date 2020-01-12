@@ -52,11 +52,11 @@ a:hover {
   border-color: #ededed;
   background-color: #fff; }
   .boxed-page .section-padding {
-    padding-top: 65px;
+    padding-top: 30px;
     padding-bottom: 65px; }
   @media (min-width: 992px) {
     .boxed-page .section-padding {
-      padding-top: 130px;
+      padding-top: 30px;
       padding-bottom: 130px; } }
 
 @media (min-width: 1200px) {
@@ -67,12 +67,6 @@ a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; }
-
-  .img-responsive {
-    height: 500px;
-    width: 300px;
-    max-height: 72px;
-    max-width: 250px;}
 
 .img-cover {
   object-fit: cover;
