@@ -89,7 +89,7 @@
 
 
 </div>	<div id="canvas-overlay"></div>
-	<!--GRAB THIS LINE FOR OTHER PAGES with /nav--> 
+	<!--GRAB THIS LINE FOR OTHER PAGES with /nav-->
   <div class="boxed-page">
 		<nav id="navbar-header" class="navbar navbar-expand-lg">
     <div class="container">
@@ -761,10 +761,13 @@ End of Testimonial Section-->
                             Place Order
                         </h2>
                     </div>
-                    <form method="post" name="contact-us" action="">
+                    <form method="post" name="contact-us" action="mailto:marinamalaguti@gmail.com" enctype="multipart/form-data">
                         <div class="row">
                             <div class="col-md-12 form-group">
                                 <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <input type="text" class="form-control" id="Address" name="Address" placeholder="Address">
                             </div>
                             <div class="col-md-12 form-group">
                                 <input type="text" class="form-control" id="email" name="email" placeholder="Email">
@@ -772,9 +775,12 @@ End of Testimonial Section-->
                             <div class="col-md-12 form-group">
                                 <input type="number" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Phone">
                             </div>
+                            <div class="col-md-12 form-group">
+                                <input type="number" class="form-control" id="allergies" name="allergies" placeholder="Allergies (IMPORTANT: Please list ALL food allergies!)">
+                            </div>
                             <div class="col-md-6 form-group">
                                 <div class="input-group date" id="datetimepicker4" data-target-input="nearest">
-                                    <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker4" placeholder="Date" />
+                                    <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker4" placeholder="Today's Date" />
                                     <div class="input-group-append" data-target="#datetimepicker4" data-toggle="datetimepicker">
                                         <div class="input-group-text">
                                             <span class="lnr lnr-calendar-full"></span>
@@ -785,31 +791,29 @@ End of Testimonial Section-->
 
                             <div class="col-md-6 form-group">
                                 <div class="input-group date" id="datetimepicker3" data-target-input="nearest">
-                                    <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker3" placeholder="Time" />
+                                    <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker3" placeholder="Order Needed By" />
                                     <div class="input-group-append" data-target="#datetimepicker3" data-toggle="datetimepicker">
                                         <div class="input-group-text">
-                                            <span class="lnr lnr-clock"></span>
+                                            <span class="lnr lnr-calendar-full"></span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-md-12 form-group">
-                                <select class="form-control" id="selectPerson">
+                                <select class="form-control" id="selectService">
                                     <option></option>
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
+                                    <option>Bulk Order</option>
+                                    <option>Standard Catering</option>
+                                    <option>Other</option>
                                 </select>
                             </div>
 
                             <div class="col-md-12 form-group">
-                                <textarea class="form-control" id="message" name="message" rows="6" placeholder="Your Message ..."></textarea>
+                                <textarea class="form-control" id="message" name="message" rows="6" placeholder="Your Order..."></textarea>
                             </div>
                             <div class="col-md-12 text-center">
-                                <button class="btn btn-primary btn-shadow btn-lg" type="submit" name="submit">Send Order</button>
+                                <button class="btn btn-primary btn-shadow btn-lg" type="submit" name="submit">Place Order</button>
                             </div>
                         </div>
                     </form>
